@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume-Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style/scale.css">  
 </head>
@@ -18,26 +17,47 @@
                 <ul>
                     <li><a href="index_static.html">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
-                    <li><a href="/Users/mohitpachaori/Desktop/Resume_portfolio/index.html">PORTFOLIO</a></li>
+                    <li><a href="https://bunny-rgb.github.io/Resume_portfolio/index.html">PORTFOLIO</a></li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </nav> 
 
             <!-- Info-->
             <div class="info">
-                <h2> Hi, I'm <span>Mohit Kumar</span> Pachaori<br></h2>
+                <mydet>
+                    <h2> Hi, I'm <span>Mohit Kumar</span> Pachaori<br></h2>
+                    <p>working as DevSecOps Engineer. This is my official portfolio website,<br>
+                        to show case my work related to DevSecOps, cybersecurity and frontend.</p> 
+                </mydet>
+
+                <!--<h2> Hi, I'm <span>Mohit Kumar</span> Pachaori<br></h2>
                 <p>working as DevSecOps Engineer. This is my official portfolio website,<br>
-                 to show case my work related to DevSecOps, cybersecurity and frontend.</p> 
+                 to show case my work related to DevSecOps, cybersecurity and frontend.</p> -->
+
+
+
+                 <!-- Adding Images and Animation-->
+
+                 <div class="img_box">
+                    <img src="image.png" class="backimg">
+                    <img src="IMG_2919.JPG" class="prfl">
+                 </div>
+
             </div>
+
+            
 
 
                   <!-- Adding Images and Animation-->
 
 
-            <div class="img_box">
+           <!--<div class="img_box">
                  <img src="image.png" class="backimg">
                  <img src="IMG_2919.JPG" class="prfl">
-            </div>
+
+                 !! Copyright to mohiKumar Pachaori !!
+                 @vagabond__r
+            </div>-->
 
         </div>
 
@@ -80,13 +100,20 @@
 
             <div class="resumesummary">
 
-                <h2>A Summary Of My Resume </h2>
-                <hr>
+                <summ>
+                    <h3>
+                        A Summary Of My Resume
+                    </h3>
+                    <hr />
 
-                <p class="Summary">I'm a cybersecurity expert with 4+ years of experience in WAF, CDN, AWS security, and cloud optimization. Specializes
-                    in securing web applications, mitigating OWASP threats, and automating security operations using Python, APIs, and CI/CD pipelines.
-                    Currently a Senior DevOps Engineer at Microland Ltd., he has managed hundreds of domains, optimized caching, and reduced 
-                    bot traffic. Holds AWS and security certifications, showcasing his expertise in cloud and web security.</p>
+                    <p class="Summary">I'm a cybersecurity expert with 4+ years of experience in WAF, CDN, AWS security, and cloud optimization. Specialization
+                        in securing and building web applications, mitigating OWASP threats, and automating security operations using Python, APIs, and CI/CD pipelines.
+                        Currently working as a Senior DevOps Engineer at Microland Ltd., managing hundreds of domains, optimized caching, and reduced 
+                        bot traffic. Holds AWS and security certifications, showcasing expertise in cloud and web security.</p>
+
+                    
+                    
+                </summ>
             </div>
         </div>
 
@@ -129,18 +156,38 @@
             <div class="contactme">
                 
                 <h5> Contact me? </h5>
-                <p> Your name </p>
+                <p> Your name 
+                    <form>
+                        <input type="text"  class="yourname" required="required" maxlength="100">
+                    </form>
+                </p>
+                
                 <p> Your email address </p>
+                <form>
+                    <input type="email"  class="yourmail" required="required" maxlength="255">
+                </form>
                 <p> Message </p>
+                <form>
+                    <textarea placeholder="Message" class="mssg"></textarea>
+                </form>
 
-                    <!-- will give INPUT field on this page-->
+                <form class="button">
+                    <button type="submit"> Send Message </button>
+
+                </form>
+
+                    <!-- will give INPUT field on this page ---- COMPLETED-->
 
             </div>
         </div>
 
 
 
-        <!--copyright-->
+        
+
+
+
+        <!--copyright @mohitkumarpachaori-->
         <div class="copyright">
             <p>Copyright © 2025 <span>Mohit Kr.</span>  All Rights Reserved.</p>
             <p>Developed by <span>MohitKr.</span></p>
