@@ -1,0 +1,768 @@
+/* Media Max-width -- 662*/
+/* -----------------------------------------*/
+
+@media (orientation: portrait){
+
+    html,body{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .container{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .navig {
+        height: 100vh;
+        width: 100%;
+        background: #fefefe;
+        font-family: sans-serif;
+        position: relative;
+    
+        
+    }
+    
+    nav {
+        display: flex;
+        padding: 20px 0;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 84%;
+        
+    
+    }
+    
+    .logo{
+        width: 60px;
+        cursor: pointer;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        list-style: none ;
+        margin: 10px 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+        font-size: 12px;
+    
+    }
+    
+    nav ul li a{
+        color: rgb(83, 82, 82);
+        text-decoration:wavy;
+    
+    }
+    
+    nav ul li a:hover{
+        color: rgb(238, 62, 62);
+    
+    }
+
+
+     /*Image prf and bckgrnd*/
+    
+     img{
+        max-width: 113% auto;
+        max-height: auto;
+        display: block;
+    }
+    
+    .backimg{
+        width: 1200px;
+        margin-left: -12%;
+        
+    
+        
+    
+    }
+    .prfl{
+        width: 50px auto; 
+        height: 40px auto;
+        padding:center;
+    }
+    
+    .img_box{
+        width: 80%;
+        height: 50%;
+        position: absolute;
+        right: 100px;
+        margin-top: -15%;
+      
+        
+    }
+    .img_box img{
+        height: 60%;
+        left: 50%;
+        bottom: 38%;
+        position: absolute;
+        transform: translateY(-130%) translateX(-30%);
+        border-radius: 30%;
+        transition: bottom 1s;
+        
+    }
+
+    /* First page Info*/
+    
+    .info {
+        margin-left: 1px;
+        margin-top: 75%;
+        border-left: 1px;
+
+        mydet{
+            margin-top: 55px 50px 40px;
+        }
+        
+    
+        p {
+            font-style: normal;
+            font-weight: lighter;
+            margin-top: 1%;
+            font-size: 12px;
+        }
+    }
+    
+    .info h2 {
+        font-size: 25px;
+        span {
+            color: rgb(242, 146, 21);
+        }
+    }
+    
+    
+    /*hovering moise transition*/
+    
+    .img_box:hover .backimg{
+        bottom: 60px;
+    
+    }
+    
+    /*.img_box:hover .prfl{
+        right: 1px;
+    }*/
+    
+    /*Resume Summary*/
+    
+    .resumesummary{
+        padding: 100px;
+    
+        p{
+            color: rgb(71, 68, 68);
+            margin: 15px;
+            font-size: 18px;
+        }
+    
+        h3{
+            font-style:oblique;
+            font-family:'Times New Roman', Times, serif;
+            justify-content: space-between;
+        }
+    }
+    
+    
+    /*skills data*/
+    .skill{
+        color: rgb(233, 227, 227);
+        text-align: center;
+        background-color: rgb(235, 139, 55);
+        font-size: 29px;
+        font-variant: initial;
+    
+    
+        h2{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 27.5px;
+            padding: 80px;
+            font-style:initial;
+            margin-bottom: -75px;
+        }
+    
+        p{
+            color: #212529;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 16px;
+        }
+    
+       
+    }
+    
+    .row{
+        margin-top: 10%;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        
+    }
+    
+    
+    
+    .col-md-3{
+        p{
+            margin: 20px;
+        }
+    }
+    
+    .hr{
+        color: yellow;
+    }
+    
+    
+    /*Hire*/
+    
+    .touch{
+        padding:18px;
+        background-color: #3d3d3d;
+        color: #FFFFFF;
+        text-align: center;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        height: 100%;
+        
+        
+    
+        h2{
+            font-style: normal;
+            border-color: green;
+        }
+        
+    
+    }
+    
+    
+    .touch a{
+    
+        background: #F5D54E;
+        padding: 10px 18px;
+        text-decoration: none;
+        color: #212529;
+        display: inline-block;
+        margin: 30px 0px;
+        border-radius: 5px;
+    
+    }
+    
+    .touch a:hover{
+        color: rgb(55, 148, 118);
+    }
+    
+    
+    /* get in touch and details*/
+    
+    .contactinfo{
+        background: #F5D54E;
+        color: #212529;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-wrap: wrap;
+        display:block;
+    
+        det{
+            margin-bottom: 60px;
+            margin-left: 160px;
+        }
+    
+        h2{
+            margin-top: 0px;
+            font-size: 38px;
+        }
+    
+        p{
+            margin-top: 20px;
+        }
+    
+        h4{
+            margin-top: 30px;
+            font-size: 22px;
+        }
+    
+    
+    }
+
+    .contactme{
+        display:flexbox;
+        flex-direction: column;
+        font-style: normal;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 90px 30px 0px 10%;
+        h5{
+            font-size: 34px;
+            margin: 7px 75px 10px;
+            
+            
+        }
+    
+        p{
+            font-size: 16px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+            /*margin-right: -700%;*/
+            
+        }
+    }
+
+    .contactme input{
+        
+       
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: #37363672;
+        border-radius: 3px;
+       /* appearance: none;*/
+        background-color:#F5D54E;
+        
+
+        
+        min-width: 90%;
+
+        
+    }
+
+    
+
+    .contactme button{
+        background-color: #343a40;
+        color: whitesmoke;
+        border-radius: 5px;
+        margin-top: 32px;
+        width: auto;
+        max-width: 190px;
+        min-height: 34px;
+        margin-bottom: 50px;
+    }
+
+    .contactme textarea{
+        appearance: none;
+        border: none;
+        border-radius: 3px;
+        min-width: 100%;
+        min-height: 70px;
+        background-color:#F5D54E
+    }
+   
+    
+    .copyright p{
+        color: #fefefe; 
+        font-size: 12px; 
+        span{
+            color: #F5D54E;
+        }
+    }
+    
+    
+    .copyright{
+        background-color: #111418;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        font-size: 14px;
+        padding-block: start end;
+        
+        
+    }
+
+}
+
+
+/**--- Default layout --*/
+
+/* --------------------------------------
+@vagabond__r
+----------------------------------------*/
+
+
+@media (orientation: landscape){
+    html,body{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    /**{
+        outline: 1px solid red;
+    }*/
+    
+    /* -- Developed by Mohit Kumar Pachaori */
+    /*body {
+        background: rgb(232, 168, 83);
+        color: rgb(4, 4, 4);
+        d-- @vagabond__r
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }*/
+    
+    .container{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .navig {
+        height: 100vh;
+        width: 100%;
+        background: #fefefe;
+        font-family: sans-serif;
+        position: relative;
+    
+        
+    }
+    
+    nav {
+        display: flex;
+        padding: 20px 0;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 84%;
+        
+    
+    
+    }
+    
+    .logo{
+        width: 80px;
+        cursor: pointer;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        list-style: none ;
+        margin: 10px 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    
+    }
+    
+    nav ul li a{
+        color: rgb(83, 82, 82);
+        text-decoration:wavy;
+    
+    }
+    
+    nav ul li a:hover{
+        color: rgb(238, 62, 62);
+    
+    }
+    
+    .info {
+
+        display:flex;
+        padding: 20px 0 0px;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 85%;
+        margin-top: 10%;
+
+        .mydet{
+            width: auto;
+            cursor: pointer;
+        }
+        
+    
+        p {
+            font-style: normal;
+            font-weight: lighter;
+            margin-top: 1%;
+            /*margin-left: -39%;*/
+            font-size: 17px;
+        }
+    }
+    
+    .info h2 {
+       /* margin-left: -39%;*/
+        font-size: 37px;
+        
+        span {
+            color: rgb(242, 146, 21);
+        }
+    }
+    
+    
+    /*Image prf and bckgrnd*/
+    
+    .img_box img{
+        max-width: auto;
+        height: auto;
+        display: inline-block;
+        margin: -250px 50px;
+    }
+    
+    .backimg{
+        width: 900px;
+        margin-left: -12%;
+    
+        
+    
+    }
+    .prfl{
+        width: 275px auto; 
+    }
+    
+    .img_box{
+        width: 40%;
+        height: 50%;
+        position: absolute;
+        right: 100px;
+      
+        
+    }
+    .img_box img{
+        height: 60%;
+        left: 50%;
+        bottom: 19%;
+        position: absolute;
+        transform: translateY(-130%) translateX(-30%);
+        border-radius: 30%;
+        transition: bottom 1s;
+    }
+    
+    /*hovering moise transition*/
+    
+    .img_box:hover .backimg{
+        bottom: 60px;
+    
+    }
+    
+    /*.img_box:hover .prfl{
+        right: 1px;
+    }*/
+    
+    
+    
+    /*skills data*/
+    .skill{
+        color: rgb(233, 227, 227);
+        text-align: center;
+        background-color: rgb(235, 139, 55);
+        font-size: 29px;
+        font-variant: initial;
+    
+    
+        h2{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 27.5px;
+            padding: 80px;
+            font-style:initial;
+            margin-bottom: -75px;
+        }
+    
+        p{
+            color: #212529;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+    
+       
+    }
+    
+    .row{
+        margin-top: 10%;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        
+    }
+    
+    
+    
+    .col-md-3{
+        p{
+            margin: 20px;
+        }
+    }
+    
+    .hr{
+        color: yellow;
+    }
+    
+    
+    /*Resume Summary*/
+    
+    .resumesummary{
+        padding: 200px;
+    
+        p{
+            color: rgb(71, 68, 68);
+            margin: 15px;
+        }
+    
+        h2{
+            font-style:oblique;
+        }
+    }
+    
+    
+    /*Hire*/
+    
+    .touch{
+        padding:18px;
+        background-color: #3d3d3d;
+        color: #FFFFFF;
+        text-align: center;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        height: 100%;
+        
+        
+    
+        h2{
+            font-style: normal;
+            border-color: green;
+        }
+        
+    
+    }
+    
+    
+    .touch a{
+    
+        background: #F5D54E;
+        padding: 10px 18px;
+        text-decoration: none;
+        color: #212529;
+        display: inline-block;
+        margin: 30px 0px;
+        border-radius: 5px;
+    
+    }
+    
+    .touch a:hover{
+        color: rgb(55, 148, 118);
+    }
+    
+    
+    /* get in touch and details*/
+    
+    .contactinfo{
+        background: #F5D54E;
+        color: #212529;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-wrap: wrap;
+        display: flex;
+    
+        det{
+            margin-bottom: 60px;
+            margin-left: 160px;
+        }
+    
+        h2{
+            margin-top: 0px;
+            font-size: 38px;
+        }
+    
+        p{
+            margin-top: 20px;
+        }
+    
+        h4{
+            margin-top: 30px;
+            font-size: 22px;
+        }
+    
+    
+    }
+    
+    .contactme{
+        display:flexbox;
+        flex-direction: column;
+        font-style: normal;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0px 10px 0px 20%;
+        h5{
+            font-size: 34px;
+            margin: 7px 120px 10px;
+            
+            
+        }
+    
+        p{
+            font-size: 16px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+            /*margin-right: -700%;*/
+            
+        }
+    }
+
+    .contactme input{
+        
+       
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: #37363672;
+        border-radius: 3px;
+       /* appearance: none;*/
+        background-color:#F5D54E;
+        
+
+        
+        min-width: 90%;
+
+        
+    }
+
+    
+
+    .contactme button{
+        background-color: #343a40;
+        color: whitesmoke;
+        border-radius: 5px;
+        margin-top: 32px;
+        width: auto;
+        max-width: 190px;
+        min-height: 34px;
+    }
+
+    .contactme textarea{
+        appearance: none;
+        border: none;
+        border-radius: 3px;
+        min-width: 100%;
+        min-height: 70px;
+        background-color:#F5D54E
+    }
+   
+    
+    
+    .copyright p{
+        color: #fefefe; 
+        font-size: 18px; 
+        span{
+            color: #F5D54E;
+        }
+    }
+    
+    
+    .copyright{
+        background-color: #111418;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        font-size: 16px;
+        padding: 20px 95px;
+       
+        
+        
+    }
+    
+    
+    
+    
+}
