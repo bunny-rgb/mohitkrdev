@@ -147,7 +147,7 @@
     /*Resume Summary*/
     
     .resumesummary{
-        padding: 100px;
+        padding: 80px 20px;
     
         p{
             color: rgb(71, 68, 68);
@@ -156,11 +156,85 @@
         }
     
         h3{
+            
             font-style:oblique;
             font-family:'Times New Roman', Times, serif;
             justify-content: space-between;
         }
+
     }
+
+    
+    .highlight-box{
+        background-color: #F5D54E;
+        color: #343a40;
+        padding: 0px 8px;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 18px;
+        display: inline-block;
+    }
+
+
+    /* -- Experience ---*/
+
+    .experiencesection{
+        padding: 20px;
+
+    }
+
+    .exp-title{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #1c1a1abf;
+        padding-bottom: 20px;
+
+    }
+
+    .exp-items{
+        color: #212529;
+        border-left: 4px solid yellow;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #e6bb58;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+    }
+
+
+    /* Education */
+
+    .Educationsection{
+        padding: 20px;
+    }
+
+    .edu-title{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #1c1a1abf;
+        padding-bottom: 20px;
+    }
+
+    .Edu-items{
+        color: #212529;
+        border-left: 4px solid yellow;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #e6bb58;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+
+    
+
     
     
     /*skills data*/
@@ -175,7 +249,7 @@
         h2{
             font-family:'Times New Roman', Times, serif;
             font-size: 27.5px;
-            padding: 80px;
+            padding: 15px;
             font-style:initial;
             margin-bottom: -75px;
         }
