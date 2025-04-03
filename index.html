@@ -219,23 +219,28 @@
             <div class="contactme">
                 
                 <h5> Contact me? </h5>
-                <p> Your name 
-                    <form>
-                        <input type="text"  class="yourname" required="required" maxlength="100">
-                    </form>
-                </p>
-                
-                <p> Your email address </p>
-                <form>
-                    <input type="email"  class="yourmail" required="required" maxlength="255">
-                </form>
-                <p> Message </p>
-                <form>
-                    <textarea placeholder="Message" class="mssg"></textarea>
-                </form>
+                <form  action="https://api.web3forms.com/submit" method="POST">
 
-                <form class="button">
-                    <button type="submit"> Send Message </button>
+                    <!---Access Key -->
+                    <input type="hidden" name="access_key" value="c9a985fe-237d-4fef-84a5-b1f4ab2dcabf">
+
+                    <p> Your name 
+                    <input type="text"  class="yourname" required="required" maxlength="100">
+                    </p>
+                    
+                    <p> Your email address </p>
+       
+                    <input type="email"  class="yourmail" required="required" maxlength="255">
+    
+                    <p> Message </p>
+  
+                    <textarea placeholder="Message" class="mssg"></textarea>
+
+                    <!---Restricting checkbox-->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <!-- Custom Confirmation / Success Page -->
+                    <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html">
+                    <button type="submit" class="button"> Send Message </button>
 
                 </form>
 

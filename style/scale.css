@@ -567,7 +567,7 @@
         max-width: auto;
         height: auto;
         display: inline-block;
-        margin: -250px 50px;
+        margin: -240px 50px;
     }
     
     .backimg{
@@ -602,7 +602,7 @@
     /*hovering moise transition*/
     
     .img_box:hover .backimg{
-        bottom: 60px;
+        bottom: 90px;
     
     }
     
