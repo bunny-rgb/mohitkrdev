@@ -215,7 +215,7 @@
                 </p>
             </det>
 
-            <!--contact me-->
+            <!--contact me and Form Submit-->
             <div class="contactme">
                 
                 <h5> Contact me? </h5>
@@ -225,21 +225,18 @@
                     <input type="hidden" name="access_key" value="c9a985fe-237d-4fef-84a5-b1f4ab2dcabf">
 
                     <p> Your name 
-                    <input type="text"  class="yourname" required="required" maxlength="100">
+                    <input type="text" name="name" class="yourname" required maxlength="100">
                     </p>
                     
                     <p> Your email address </p>
-       
-                    <input type="email"  class="yourmail" required="required" maxlength="255">
-    
+                    <input type="email" name="email" class="yourmail" required maxlength="255">
                     <p> Message </p>
   
-                    <textarea placeholder="Message" class="mssg"></textarea>
-
+                    <textarea placeholder="Message" name="Message" class="mssg" required></textarea>
                     <!---Restricting checkbox-->
                     <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                     <!-- Custom Confirmation / Success Page -->
-                    <input type="hidden" name="redirect" value="https://bunny-rgb.github.io/mohitkrdev/">
+                    <input type="hidden" name="redirect" value="index.html">
                     <button type="submit" class="button"> Send Message </button>
 
                 </form>
