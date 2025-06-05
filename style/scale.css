@@ -447,6 +447,10 @@
 }
 
 
+
+
+
+
 /**--- Default layout --*/
 
 /* --------------------------------------
@@ -460,6 +464,7 @@
         margin: 0;
         padding: 0;
         width: 100%;
+
     }
     
     /**{
@@ -567,8 +572,10 @@
         max-width: auto;
         height: auto;
         display: inline-block;
-        margin: -240px 50px;
+        margin: -250px 50px;
     }
+
+    
     
     .backimg{
         width: 900px;
@@ -577,8 +584,9 @@
         
     
     }
-    .prfl{
-        width: 275px auto; 
+   .prfl{
+        
+        height: 50px;
     }
     
     .img_box{
@@ -586,23 +594,25 @@
         height: 50%;
         position: absolute;
         right: 100px;
+        top: 18%;
       
         
     }
     .img_box img{
-        height: 60%;
+        height: 50%;
         left: 50%;
         bottom: 19%;
         position: absolute;
         transform: translateY(-130%) translateX(-30%);
-        border-radius: 30%;
+        border-radius: 116px 8px;
         transition: bottom 1s;
     }
     
     /*hovering moise transition*/
     
     .img_box:hover .backimg{
-        bottom: 90px;
+        
+        bottom: 60px;   
     
     }
     
@@ -925,3 +935,5 @@
     
     
 }
+
+
